@@ -1,0 +1,99 @@
+*{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  
+}
+
+.body{
+    background-color: rgb(122, 183, 202);
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    background: #bff0f2;
+    border-radius: 25px;
+    justify-content: center;
+    padding-top: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    margin-top: 25px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 30px;
+    vertical-align: middle;
+}
+
+.header{
+    padding:10px;
+    background: #eaf5f5;
+    border-radius: 25px;
+}
+
+#time{
+    float: right;
+    margin-right: 50px;
+    margin-top: 20px; 
+    font-size: 25px;
+    background: #bff0f2;
+}
+
+.divfirst{
+    background-color: #bff0f2;
+}
+
+.clean-btn-position{
+    float: right;
+    margin-right: 50px;
+    margin-top: 5px;
+}
+
+.upper-container{
+    text-align: center;
+    background: #bff0f2;
+}
+
+#toDoList{
+    margin: 15px;
+    padding: 15px;
+    background: #eaf5f5;
+    border-radius: 25px;
+}
+
+.input{
+    background: #bff0f2;
+}
+
+
+.social{
+    display: flex;
+    flex-direction: row-reverse;
+    flex: 0%;
+}
+
+.fa{
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa-facebook {
+    background-color: rgb(87, 175, 202);
+  color: white;
+}
+
+.fa-linkedin{
+    background-color: rgb(87, 175, 202);
+    color: white;
+}
+
+.fa-github{
+    background-color: rgb(87, 175, 202);
+    color: white;
+}
+
+.fa:hover {
+    opacity: 0.4; 
+}
